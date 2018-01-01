@@ -9,10 +9,7 @@ function math(val) {
 function e() {
   try {
     c(eval(document.getElementById("d").value));
-  }
-
-  catch(e) {
+  } catch(e) {
     c("error");
   }
-
 }

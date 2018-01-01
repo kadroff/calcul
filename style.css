@@ -1,0 +1,26 @@
+.calcul {
+  background-color: #2E2D32;
+  width: 450px;
+  height: 700px;
+}
+
+
+
+input[type=text] {
+  border: none;
+  background-color: #2E2D32;
+  color: white;
+  height: 80px;
+  width: 100%;
+  font-size: 80px;
+  padding-top: 50px;
+}
+
+input[type=button] {
+  border: none;
+  background-color: #2E2D32;
+  color: white;
+  font-size: 20px;
+  padding-left: 68px;
+  padding-top: 60px;
+}
