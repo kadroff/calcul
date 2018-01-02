@@ -1,12 +1,14 @@
 body,html {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  background-color: #DEDFD9;
 }
 
 .calcul {
   background-color: #2E2D32;
   width: 380px;
   height: 600px;
+  margin: 50px auto;
 }
 
 .keys {

@@ -13,3 +13,13 @@ function e() {
     c("error");
   }
 }
+
+function procent() {
+  var result = document.getElementById("d").value / 100;
+  document.getElementById("d").value = result
+}
+
+function minus() {
+  var result = - document.getElementById("d").value;
+  document.getElementById("d").value = result
+}
