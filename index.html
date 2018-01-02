@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -12,29 +13,29 @@
     <div class="display"><input type="text" readonly id="d"></div>
     <div class="keys">
   
-      <input type="button" value="AC" onclick='c("")'>
-      <input type="button" value="C" onclick='math("8")'>
-      <input type="button" value="%" onclick='math("7")'>
-      <input type="button" value="/" onclick='math("/")'>
+      <div class="button"><input type="button" value="AC" onclick='c("")'></div>
+      <div class="button"><input type="button" value="C" onclick='math("8")'></div>
+      <div class="button"><input type="button" value="%" onclick='math("7")'></div>
+      <div class="button"><input type="button" value="/" onclick='math("/")'></div>
 
-      <input type="button" value="7" onclick='math("7")'>
-      <input type="button" value="8" onclick='math("8")'>
-      <input type="button" value="9" onclick='math("9")'>
-      <input type="button" value="X" onclick='math("*")'>
+      <div class="button"><input type="button" value="7" onclick='math("7")'></div>
+      <div class="button"><input type="button" value="8" onclick='math("8")'></div>
+      <div class="button"><input type="button" value="9" onclick='math("9")'></div>
+      <div class="button"><input type="button" value="X" onclick='math("*")'></div>
   
-      <input type="button" value="4" onclick='math("4")'>
-      <input type="button" value="5" onclick='math("5")'>
-      <input type="button" value="6" onclick='math("6")'>
-      <input type="button" value="-" onclick='math("-")'>
+      <div class="button"><input type="button" value="4" onclick='math("4")'></div>
+      <div class="button"><input type="button" value="5" onclick='math("5")'></div>
+      <div class="button"><input type="button" value="6" onclick='math("6")'></div>
+      <div class="button"><input type="button" value="-" onclick='math("-")'></div>
   
-      <input type="button" value="1" onclick='math("1")'>
-      <input type="button" value="2" onclick='math("2")'>
-      <input type="button" value="3" onclick='math("3")'>
-      <input type="button" value="+" onclick='math("+")'>
+      <div class="button"><input type="button" value="1" onclick='math("1")'></div>
+      <div class="button"><input type="button" value="2" onclick='math("2")'></div>
+      <div class="button"><input type="button" value="3" onclick='math("3")'></div>
+      <div class="button"><input type="button" value="+" onclick='math("+")'></div>
 
-      <input type="button" value="0" onclick='math("0")'>
-      <input type="button" value="." onclick='math(".")'>
-      <input type="button" value="=" onclick='e()'>
+      <div class="button"><input type="button" value="0" onclick='math("0")'></div>
+      <div class="button"><input type="button" value="." onclick='math(".")'></div>
+      <div class="button"><input type="button" value="=" onclick='e()'></div>
     </div>
   </div>
     <script src="app.js"></script>
